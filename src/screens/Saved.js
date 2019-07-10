@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
-class About extends Component {
+class Saved extends Component {
   render() {
     return (
       <Container>
@@ -16,4 +16,4 @@ class About extends Component {
   }
 }
 
-export default About
+export default Saved

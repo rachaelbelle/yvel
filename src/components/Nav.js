@@ -5,9 +5,9 @@ class Nav extends Component {
   render() {
     return (
       <>
-        <Link to='/'>Home</Link>
+        <Link to='/'>Search</Link>
         <br />
-        <Link to='/about'>About</Link>
+        <Link to='/Saved'>Saved</Link>
       </>
     )
   }

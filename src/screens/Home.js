@@ -10,7 +10,7 @@ class Home extends Component {
     }
   }
 
-  componentDidMount() {
+  componentDidMount() { 
     this.getGifs()
     // alert('I\'m here')
   }

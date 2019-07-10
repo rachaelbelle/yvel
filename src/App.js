@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 import Home from './screens/Home';
-import About from './screens/About';
+import Saved from './screens/Saved';
 import Nav from './components/Nav';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
      <>
      <Nav />
     <Route exact path="/" component={Home} />
-    <Route exact path="/About" component={About} />
+    <Route exact path="/Saved" component={Saved} />
     </>
     </Router>
   );
